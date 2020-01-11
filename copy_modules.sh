@@ -1,5 +1,3 @@
-cp ./node_modules/mermaid/dist/mermaid.min.js .
-
 mkdir -p fontawesome/css/
 cp ./node_modules/@fortawesome/fontawesome-free-webfonts/css/* fontawesome/css/
 

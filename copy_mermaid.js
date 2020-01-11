@@ -1,0 +1,5 @@
+const fs = require('fs'), path = require('path')
+const src = require.resolve('mermaid/dist/mermaid.min.js')
+const dst = path.join(__dirname, 'mermaid.min.js')
+console.log(`Mermaid Copying "${src}" to "${dst}"`)
+fs.copyFileSync(src, dst)

@@ -1,3 +1,9 @@
+**Shane's Notes:**  This is a simple fork of
+[mermaidjs/mermaid.cli](https://github.com/mermaidjs/mermaid.cli) to use peer
+dependencies on mermaid instead of internal dependencies.
+
+---
+
 # mermaid.cli
 
 Command-line interface for [mermaid](https://mermaidjs.github.io/).
